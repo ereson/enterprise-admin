@@ -84,9 +84,15 @@ enterprise-admin
 ├── admin-common        # 公共工具模块
 ├── admin-system        # 系统核心模块（用户/权限）
 ├── admin-framework     # 框架层（安全/配置/拦截器）
-├── admin-api           # 对外API层
 ├── admin-service       # 业务逻辑层
+├── admin-api           # 对外API层
 └── admin-ui (optional) # 前端项目
+```
+
+## 启动方式
+
+```bash
+mvn spring-boot:run -pl admin-api -am
 ```
 
 ---
